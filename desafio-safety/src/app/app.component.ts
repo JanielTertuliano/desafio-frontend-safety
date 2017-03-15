@@ -31,6 +31,10 @@ export class AppComponent {
     });
   }
 
+   converter(f){
+     let c = ((f - 32) / 18000) * 10000;
+     return c;
+   }
 
   toChange(icon: string){
    if(icon == 'Cloudy'){
