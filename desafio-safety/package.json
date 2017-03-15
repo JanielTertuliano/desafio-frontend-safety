@@ -1,9 +1,10 @@
 {
   "name": "desafio",
+  "description": "desafio safety",
   "version": "0.0.0",
   "license": "MIT",
   "engines": {
-    "node": "v6.10.0"
+    "npm": "3.10.10"
   },
   "scripts": {
     "ng": "ng",
@@ -12,7 +13,13 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "heroku-postbuild": "npm run build"
+    "start": "node index.js",
+
+    "test": "mocha",
+    "postinstall": "bower install && grunt build",
+    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
+    "heroku-postbuild": "echo This runs afterwards.",
+    "heroku-postbuild": "npm run build",
   },
   "private": true,
   "dependencies": {
