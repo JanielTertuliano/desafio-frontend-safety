@@ -1,30 +1,27 @@
-#Resumo
+# Desafio
 
-O desafio consiste basicamente em criar uma aplicação em Angular2 ou VueJS para exibir os dados da previsão do tempo. Conforme imagem abaixo:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
 
-![alt tag](https://i.ytimg.com/vi/_HhQxUTQf38/maxresdefault.jpg)
-![alt tag](https://i.ytimg.com/vi/NAsHIe3gxI8/maxresdefault.jpg)
+## Development server
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
-Repare que o fundo da imagem muda de acordo com o clima do dia (se a previsão for de sol, uma imagem que remete a um dia ensolarado. Se for previsão de chuva, idem).
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
-#Observações
-* Os dados deverão vir da API do Yahoo! (https://developer.yahoo.com/weather/)  
-* A aplicação deverá ter um campo de busca onde o usuário digitará o nome da cidade que desejar saber sobre as previsões.
-* As imagens acima são só um exemplo para você se basear. Sinta-se livre para usar as fontes, cores, ícones e posicionamento das informações conforme o que sua criatividade mandar (o visual da aplicação terá um peso muito grande na avaliação). A unica coisa que deve ser respeitada é o background mudando de acordo com a previsão do dia.
- 
+## Build
 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-#Instruções
-* Para participar do desafio o candidato deverá fazer um FORK do projeto e enviar seu PR somente quando considerar seu projeto finalizado
-* O prazo para entrega do teste será até segunda-feira, dia 14, às 23:59
-* O horário considerado como entregue será o de envio do PR
-* Preocupe-se com a qualidade do código
-* Será considerado um plus a aplicação do candidato estar hospedada no Heroku
+## Running unit tests
 
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Boa sorte ;)
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
 
+## Further help
 
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
