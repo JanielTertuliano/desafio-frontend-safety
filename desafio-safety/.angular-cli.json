@@ -3,6 +3,9 @@
   "project": {
     "name": "desafio"
   },
+  "engines": {
+    "node": "0.12.7"
+  },
   "apps": [
     {
       "root": "src",
