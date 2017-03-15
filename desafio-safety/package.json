@@ -16,7 +16,7 @@
     "start": "node index.js",
 
     "test": "mocha",
-    "postinstall": "bower install && grunt build",
+    "postinstall": ".node_modules/bower/bin/bower install",
     "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
     "heroku-postbuild": "echo This runs afterwards.",
     "heroku-postbuild": "npm run build",
